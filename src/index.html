@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head height="0px" width="0px">
+  <meta charset="UTF-8" />
+  <script type="module" src="/main.js" defer></script>
+  <script type="module" src="/stockOverlay.js" defer></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <span class="stockUI">
+    <button id="addButton">
+      <img src="assets\37968.png" width="30px" id="buttonImage">
+    </button>
+
+    <button id="reload">
+      <img src="assets\ReloadImage.png" width="30px" id="reloadButtonImage">
+    </button>
+
+    <button id="delete">
+      <img src="assets\1843344.png" width="30px" id="deleteButtonImage">
+    </button>
+    
+    <textarea id="addTickerEntry" name="addTickerEntry" cols="15" rows="0" maxlength="6"></textarea>
+  </span>
+
+  <div class="canvas-container">
+    <canvas id="myCanvas" height="580px" width="580px"></canvas>
+    <div class="stockUI"></div>
+    <div id="tickerBoxes"></div>
+  </div>
+</body>
+
+</html>

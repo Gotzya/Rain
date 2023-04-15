@@ -1,0 +1,16 @@
+{
+  "name": "tauri-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "tauri": "tauri",
+    "localhost": "D:\\Users\\CHROME-BOOK\\Documents\\Programing\\ElectronApp\\tauri-app\\node_modules\\.bin\\servor src index.html 8080 --reload"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.2.2"
+  },
+  "dependencies": {
+    "servor": "^4.0.2"
+  }
+}
