@@ -17,7 +17,7 @@ Install Rain using the installer [[Download Here](https://github.com/Gotzya/Rain
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/Gotzya/Rain
 ```
 
 Go to the project directory
